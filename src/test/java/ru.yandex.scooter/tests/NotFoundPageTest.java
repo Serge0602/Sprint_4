@@ -1,9 +1,11 @@
-import factory.DriverFactory;
+package ru.yandex.scooter.tests;
+
+import ru.yandex.scooter.factory.DriverFactory;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import ru.yandex.scooter.pageobjects.HeaderPage;
+import ru.yandex.scooter.pageobject.HeaderPage;
 
 public class NotFoundPageTest {
 

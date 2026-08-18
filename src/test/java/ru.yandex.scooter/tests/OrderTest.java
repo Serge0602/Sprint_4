@@ -1,12 +1,14 @@
+package ru.yandex.scooter.tests;
+
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import factory.DriverFactory;
+import ru.yandex.scooter.factory.DriverFactory;
 import org.openqa.selenium.WebDriver;
-import ru.yandex.scooter.pageobjects.MainPage;
-import ru.yandex.scooter.pageobjects.OrderPage;
+import ru.yandex.scooter.pageobject.MainPage;
+import ru.yandex.scooter.pageobject.OrderPage;
 
 @RunWith(Parameterized.class)
 public class OrderTest {

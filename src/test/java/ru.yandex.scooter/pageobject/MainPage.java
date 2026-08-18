@@ -1,4 +1,4 @@
-package ru.yandex.scooter.pageobjects;
+package ru.yandex.scooter.pageobject;
 
 import org.openqa.selenium.*;
 

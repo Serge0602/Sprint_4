@@ -1,9 +1,11 @@
-import factory.DriverFactory;
+package ru.yandex.scooter.tests;
+
+import ru.yandex.scooter.factory.DriverFactory;
 import org.junit.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
-import ru.yandex.scooter.pageobjects.FaqMainPage;
+import ru.yandex.scooter.pageobject.FaqMainPage;
 
 import static org.hamcrest.CoreMatchers.is;
 

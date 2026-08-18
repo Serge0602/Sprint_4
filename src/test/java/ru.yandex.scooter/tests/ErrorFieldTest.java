@@ -1,10 +1,12 @@
-import factory.DriverFactory;
+package ru.yandex.scooter.tests;
+
+import ru.yandex.scooter.factory.DriverFactory;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import pageObjects.MainPage;
-import pageObjects.OrderPage;
+import ru.yandex.scooter.pageobject.MainPage;
+import ru.yandex.scooter.pageobject.OrderPage;
 
 public class ErrorFieldTest {
 
