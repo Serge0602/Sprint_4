@@ -5,8 +5,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import factory.DriverFactory;
 import org.openqa.selenium.WebDriver;
-import pageObjects.MainPage;
-import pageObjects.OrderPage;
+import ru.yandex.scooter.pageobjects.MainPage;
+import ru.yandex.scooter.pageobjects.OrderPage;
 
 @RunWith(Parameterized.class)
 public class OrderTest {

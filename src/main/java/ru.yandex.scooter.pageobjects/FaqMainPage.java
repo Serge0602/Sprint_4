@@ -1,4 +1,4 @@
-package pageObjects;
+package ru.yandex.scooter.pageobjects;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;

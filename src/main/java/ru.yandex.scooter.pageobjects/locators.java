@@ -1,4 +1,4 @@
-package pageObjects;
+package ru.yandex.scooter.pageobjects;
 
 /*
 

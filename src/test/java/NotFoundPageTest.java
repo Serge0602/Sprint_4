@@ -3,7 +3,7 @@ import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import pageObjects.HeaderPage;
+import ru.yandex.scooter.pageobjects.HeaderPage;
 
 public class NotFoundPageTest {
 

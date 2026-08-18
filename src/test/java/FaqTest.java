@@ -3,7 +3,7 @@ import org.junit.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
-import pageObjects.FaqMainPage;
+import ru.yandex.scooter.pageobjects.FaqMainPage;
 
 import static org.hamcrest.CoreMatchers.is;
 
