@@ -20,7 +20,7 @@ public class FaqTest {
         this.expectedAnswer = expectedAnswer;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Вопрос: {1}, Ответ: {2}")
     public static Object[][] getFaqData() {
         return new Object[][]{
                 { 0, "Сколько это стоит? И как оплатить?", "Сутки — 400 рублей. Оплата курьеру — наличными или картой."},
